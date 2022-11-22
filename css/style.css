@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    }
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #eeeee4;
+}
+a{
+    text-decoration: none;
+}
+.mt_5
+{
+    margin-top: 5rem!important;
+}
+.header_img{
+    width: 70px;
+}
+.bg-light{
+    background-color: #4d081a !important;
+}
+.navbar-collapse a{
+    color: #FFFFFF;
+}
+.navbar-collapse a:hover{
+    color: #d5c46c !important;
+}
+.navbar-collapse .active{
+    color: #d5c46c !important;
+}
+
+/* ----Banner Section Start---- */
+.bg-color{
+    background-color: #9f1c3e;
+}
+.banner_logo_img{
+    width: 130px;
+    padding: 10px;
+}
+.sponsorship-clock-component_lineDiamondRight__1J4kZ {
+    transform: rotate(180deg);
+}
+.countdown_timer div{
+    padding: 0 06px;
+    color: white;
+}
+.countdown_timer div p{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: -14px;
+}
+.timer_svg svg{
+    width: 7px;
+}
+.match_card{
+    margin: 0px 22px 1rem;
+    padding: 1rem;
+    background: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    color: rgb(2, 15, 42);
+    width: 90%;
+}
+.match_card .match_card_matchCardInfo{
+    font-size: 0.625rem;
+    color: rgb(80, 91, 115);
+    line-height: 1.6;
+    font-weight: 500;
+}
+.match_card_matchCardTime{
+    font-size: 0.75rem;
+    
+    font-weight: 500;
+}
+.team_flag {
+    height: auto;
+    max-width: 24px;
+    border: 1px solid rgb(212, 193, 100);
+}
+.match_card_teamName {
+    font-size: 0.75rem;
+    
+    font-weight: 500;
+}
+/* ----Carousel Section---- */
+/* .banner-section
+{
+    background-image: url(images/slider-2.jpg.webp);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 8%;
+}
+.carousel-item
+{
+    background-image: url(images/slider-2.jpg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5%;
+    padding-bottom: 50px;
+} */
+.carousel-indicators .carousel-design{
+    background-color: #CECECE ;
+    height: 10px ;
+    width: 16px ;
+    border-radius: 6px;
+    border: none ;
+}
+.carousel-indicators .active
+{
+    background-image: linear-gradient(to right, #9f1c3e, #ff3268);
+    width: 45px;
+}
+/* ----Banner Section End---- */
+
+
+
+/* *************************************************
+                   Team Page Start
+************************************************* */
+
+.team_banner_section{
+    background-color: #9f1c3e;
+    height: 150px;
+}
+.team_banner_section_title{
+    font-size: 1.875rem;
+    line-height: 1.4;
+    color: #FFFFFF;
+    padding-inline-start: 2.5rem;
+    margin-bottom: 71px;
+}
+.team_banner_section_imageContainer{
+    margin-bottom: 86px;
+    width: 211px;
+}
+.team_banner_section_image{
+    width: auto;
+    height: 100%;
+}
+.pt_5{
+    padding-top: 10.5rem!important;
+}
+.flag_grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(117px, 1fr));
+    gap: 1rem;
+}
+.flag_grid a{
+    color: #03122b;
+}
+.flag-with-info_flagWithInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flag_with_info_flag{
+    margin: 0px 0px 1rem;
+}
+.flag-with-info_flagInfo{
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+.flag-with-info_flagAbbr{
+    font-size: 1.125rem;
+    line-height: 1.4;
+    text-align: center;
+}
+.flag_with_info_flag img{
+    max-width: 94px;
+    width: 100%;
+    height: auto;
+    box-shadow: rgb(213 196 108) 0px 0px 0px 2px;
+    border-radius: 0.125rem;
+}
+.flag-with-info_flagCountry{
+    text-align: center;
+}
+
+
+/* *************************************************
+                   Fixtures Page Start
+************************************************* */
+.fixtures_section{
+    
+}
+.fixture_match_card .match_card_fullTime{
+    background: #ff004c;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 4px;
+}
+.fixture_hover .fixture_match_card{
+    transition: .3s all ease;
+}
+.fixture_hover .fixture_match_card:hover{
+    border: 1px solid #ff004c;    
+}
+.fixture_match_card {
+    /* margin: 0px 22px 1rem; */
+    padding: 1rem;
+    background: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    color: rgb(2, 15, 42);
+    width: 100%;
+}
+.fixture_match_card .match_card_matchCardInfo {
+    font-size: 0.785rem;
+    color: rgb(80, 91, 115);
+    line-height: 1.6;
+    font-weight: 500;
+}
+.fixture_team_flag {
+    height: auto;
+    max-width: 30px;
+    border: 1px solid rgb(212, 193, 100);
+}
+.fixture_match_card .match_card_teamName {
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding: 6px 0;
+}
+.fixture_match_card .match_card_matchCardTime {
+    font-size: 1rem;
+    font-weight: 600;
+}
